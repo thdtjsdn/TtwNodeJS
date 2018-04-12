@@ -1,0 +1,1 @@
+var ml = 900000;var a = [];var g = 0;var n = { $once : function(){ return ++g; } };var exec = function( fn ){ return fn( n ); };var c = function( i, n ){ i, ++g; return n.$once; };var st = new Date();var i=0; iLen=ml; for( ; i<iLen; ++i ){ c( i, n ); }a.length = 0;console.log( "기본함수2 : " + ( new Date() - st ).toString() );

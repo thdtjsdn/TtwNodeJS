@@ -216,4 +216,5 @@ pip-log.txt
 .mr.developer.cfg
 
 
-__Backup/*
+__Backup/***
+***/__Backup/****
